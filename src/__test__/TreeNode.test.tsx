@@ -1,7 +1,7 @@
 import { render, fireEvent } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom'; // Import MemoryRouter
-import TreeNode from '../components/TreeNode'; // Adjust the import path for TreeNode
-import { TreeProvider } from '../context/TreeContext'; // Adjust the import for your context
+import { MemoryRouter } from 'react-router-dom';
+import TreeNode from '../components/TreeNode';
+import { TreeProvider } from '../context/TreeContext';
 
 it('should render and toggle checkbox on click', () => {
     // Example of mock data
@@ -14,7 +14,6 @@ it('should render and toggle checkbox on click', () => {
         ],
     };
 
-    // Render the component wrapped in both TreeProvider and MemoryRouter
     const { getByTestId } = render(
         <MemoryRouter>
             <TreeProvider>
@@ -23,13 +22,11 @@ it('should render and toggle checkbox on click', () => {
         </MemoryRouter>
     );
 
-    // Now you can safely interact with the component as it has access to location and routing context
     const checkbox = getByTestId('checkbox') as HTMLInputElement;
 
-    // Fire events to toggle the checkbox and check the result
     fireEvent.click(checkbox);
-    expect(checkbox.checked).toBe(true);  // Checkbox should be checked after click
+    expect(checkbox.checked).toBe(true);
 
     fireEvent.click(checkbox);
-    expect(checkbox.checked).toBe(false); // Checkbox should be unchecked after second click
+    expect(checkbox.checked).toBe(false);
 });
