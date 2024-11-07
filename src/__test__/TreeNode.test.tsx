@@ -22,6 +22,7 @@ it('should render and toggle checkbox on click', () => {
         </MemoryRouter>
     );
 
+    // eslint-disable-next-line testing-library/prefer-screen-queries
     const checkbox = getByTestId('checkbox') as HTMLInputElement;
 
     fireEvent.click(checkbox);
