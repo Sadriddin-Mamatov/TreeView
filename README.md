@@ -1,7 +1,11 @@
-# Getting Started with Create React App
+## TreeView short description for my work.
+I have done all test-task requirments and technical requirments.
+This project creating TreeView with Checkbox is small project so I used only ContextApi , we needn't redux.
+and aslo for testing testing-library jest, you can check, and I saved to query selection value and when you refresh page value saved so You can see previous result,
+I think I did all requirments but, please don't see deeply design of this component, I look functional side , but I can custimize all desing.
+Thank you!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+#Inctructions
 ## Available Scripts
 
 In the project directory, you can run:
@@ -32,16 +36,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# TreeView
