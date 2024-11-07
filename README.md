@@ -1,10 +1,11 @@
-# TreeView short description my works
+## TreeView short description for my work.
 I have done all test-task requirments and technical requirments.
 This project creating TreeView with Checkbox is small project so I used only ContextApi , we needn't redux.
 and aslo for testing testing-library jest, you can check, and I saved to query selection value and when you refresh page value saved so You can see previous result,
 I think I did all requirments but, please don't see deeply design of this component, I look functional side , but I can custimize all desing.
 Thank you!
 
+#Inctructions
 ## Available Scripts
 
 In the project directory, you can run:
